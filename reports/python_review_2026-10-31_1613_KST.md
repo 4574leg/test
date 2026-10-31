@@ -6,10 +6,10 @@
 | --- | --- |
 | 검사 일시 | 2026-10-31 16:13 KST (Asia/Seoul) |
 | 저장소 / 브랜치 | `4574leg/test` / `main` |
-| 직전 보고서 | `reports/python_review_2026-10-31_1613_KST.md` |
-| 직전 보고서에 기록된 분석 기준 커밋 | `e5d102c3473eebbc64b1896797215e637f5d37d1` |
+| 직전 보고서 | `reports/python_review_2026-10-31_1518_KST.md` |
+| 직전 보고서에 기록된 분석 기준 커밋 | `830e104d346200f961e50b361afa24008032e7b1` |
 | **이번 분석 기준 커밋 SHA (보고서 저장 전 main HEAD)** | **`e5d102c3473eebbc64b1896797215e637f5d37d1`** |
-| 비교 범위 | `e5d102c3473eebbc64b1896797215e637f5d37d1...e5d102c3473eebbc64b1896797215e637f5d37d1` |
+| 비교 범위 | `830e104d346200f961e50b361afa24008032e7b1...e5d102c3473eebbc64b1896797215e637f5d37d1` |
 | Python 검사 대상 | `order.py` (132줄; blob `bb3ecab7295701fcb90e738127400a3c7aa8a966`) |
 | 검사 방법 | 최신 보고서 직접 조회, GitHub 커밋 비교, 전체 저장소 트리 확인, Python 소스 원문 검토 |
 | 변경 범위 | 이 Markdown 보고서 신규 생성만 수행 |
@@ -18,7 +18,7 @@
 
 **변경 없음: 추가·수정·삭제된 Python 파일 0개, 신규 발견 0건.**
 
-커밋 비교 결과 `status=ahead`, `ahead_by=1`, `behind_by=0`, `total_commits=1`이다. 변경 파일은 `reports/python_review_2026-10-31_1613_KST.md` 추가 1개뿐이며 Python 파일 변경은 없다. 전체 저장소 트리 응답은 `truncated=false`이고 Python 파일은 `order.py` 한 개다. 파일 blob SHA는 `bb3ecab7295701fcb90e738127400a3c7aa8a966`으로 직전 보고서와 같다.
+커밋 비교 결과 `status=ahead`, `ahead_by=1`, `behind_by=0`, `total_commits=1`이다. 변경 파일은 `reports/python_review_2026-10-31_1518_KST.md` 추가 1개뿐이며 Python 파일 변경은 없다. 전체 저장소 트리 응답은 `truncated=false`이고 Python 파일은 `order.py` 한 개다. 파일 blob SHA는 `bb3ecab7295701fcb90e738127400a3c7aa8a966`으로 직전 보고서와 같다.
 
 기존 잠재 문제 **15건(치명적 3, 높음 6, 보통 4, 낮음 2)**은 `order.py` 원문을 재확인한 뒤 이월했다. 이월 문제를 신규 발견으로 계산하지 않는다.
 
@@ -58,8 +58,8 @@
 
 ## 5. 근거 및 한계
 
-1. 최신 보고서 `reports/python_review_2026-10-31_1613_KST.md`에서 분석 기준 커밋 `e5d102c3473eebbc64b1896797215e637f5d37d1`를 직접 확인했다.
-2. GitHub 커밋 비교 `e5d102c3473eebbc64b1896797215e637f5d37d1...e5d102c3473eebbc64b1896797215e637f5d37d1`에서 보고서 파일 1개 추가만 확인했으며 Python 변경 파일은 0개다.
+1. 최신 보고서 `reports/python_review_2026-10-31_1518_KST.md`에서 분석 기준 커밋 `830e104d346200f961e50b361afa24008032e7b1`를 직접 확인했다.
+2. GitHub 커밋 비교 `830e104d346200f961e50b361afa24008032e7b1...e5d102c3473eebbc64b1896797215e637f5d37d1`에서 보고서 파일 1개 추가만 확인했으며 Python 변경 파일은 0개다.
 3. 전체 저장소 트리 및 `order.py` 원문을 조회해 기존 15개 잠재 문제의 위치와 근거를 확인했다.
 4. 실행 테스트, DB 스키마·제약 확인, 외부 인증 프록시, 실제 네트워크 노출 및 악용 검증은 수행하지 않았다. 심각도는 코드상 잠재 위험 평가이며 배포 환경에 따라 달라질 수 있다.
 5. **다음 검사에서 사용할 이번 분석 기준 커밋은 `e5d102c3473eebbc64b1896797215e637f5d37d1`이다.** 이번 보고서 생성 커밋은 이 기준에 포함하지 않는다.
